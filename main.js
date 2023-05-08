@@ -1,3 +1,3 @@
 function recipeIndex() {
-    window.location.href = "/pages/recipes.html";
+    window.location.href = "recipes.html";
 }
