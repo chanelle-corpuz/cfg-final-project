@@ -1,0 +1,260 @@
+body {
+    position: relative;
+    min-height: 100vh;
+    font-family: 'Oswald', sans-serif;
+    background-color: #FFE457;
+}
+
+/* Navigation styles */
+.nav-item {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-link { 
+    color:#1c1c1c;
+}
+
+.search {
+    padding: 5px;
+}
+
+
+/* Homepage */
+.headline {
+text-align: center;
+padding: 40px;
+background-color: white;
+color: #1c1c1c;
+}
+
+.col {
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px;
+}
+
+.filter-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 20px 20px 20px;
+    
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 20px 20px 20px;
+    
+}
+
+.flex-item {
+    padding: 10px 10px;
+    margin: 0px;
+}
+
+.cta-btn {
+    font-family:'Hanken Grotesk', sans-serif;
+    background-color:#1c1c1c;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+.btn {
+    font-family:'Hanken Grotesk', sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.card-title {
+    text-decoration: underline;
+}
+
+.card-item {
+    padding: 10px;
+}
+
+div ul {
+    list-style-type: none;
+    
+}
+
+/* Footer styles */
+
+#footer {
+    background-color: #f8f8f8;
+    /* position: absolute; */
+    bottom: 0;
+    /* height: 60px; */
+    padding: 16px 16px;
+    /* height:2.5em; */
+}
+
+.ft-link {
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-decoration: none;
+    color:#1c1c1c;
+    font-weight: 300;
+}
+
+.ft-terms-link {
+    text-decoration: none;
+    color:#1c1c1c;
+}
+
+
+h6{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700;
+}
+
+.filter-title {
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+}
+
+.filter-btn {
+    font-family:'Hanken Grotesk', sans-serif;
+    background-color: white;
+    color: #1c1c1c;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #1c1c1c;
+    padding: 5px 10px;
+}
+
+.badge {
+    font-family:'Hanken Grotesk', sans-serif;
+    font-weight: 500;
+    color:#1c1c1c;
+    padding: 5px 15px;
+}
+
+
+
+/* user interaction states */
+.cta-btn:hover {
+    background-color: #008047;
+    transition: 0.4s;
+}
+
+.card:hover {
+    box-shadow: 0px 10px 10px #1c1c1c;
+    transition: 0.7s;
+}
+
+.ft-link:hover {
+    text-decoration:underline;
+}
+
+.ft-terms-link:hover {
+    text-decoration: underline;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #1c1c1c;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #1c1c1c;
+    padding: 5px 10px;
+    transition: 0.4s; 
+}
+
+.filter-btn:hover {
+    background-color: #06de7d;
+    color: #1c1c1c;
+}
+
+
+/* Images for Recipes */
+
+.img-quiche {
+    background-image: url("./assets/recipes/coronation-quiche.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 295px;
+    background-position: center;
+    }
+
+.img-trifle {
+    background-image: url("./assets/recipes/mixed-berry-trifle.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 295px;
+    background-position: center;
+}
+
+.img-chicken {
+    background-image: url("./assets/recipes/coronation-chicken.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 295px;
+    background-position: center;
+}
+
+.img-chickpea {
+    background-image: url("./assets/recipes/chickpea-curry.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 295px;
+    background-position: center;
+}
+
+.img-gnocchi {
+    background-image: url("./assets/recipes/mushroom-gnocchi.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 295px;
+    background-position: center 30%;
+}
+
+.img-protein-bowl {
+    background-image: url("./assets/recipes/protein-bowl.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 295px;
+    background-position: center 70%;
+}
+
+.img-stir-fry {
+    background-image: url("./assets/recipes/stir-fry.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 295px;
+    background-position: center;
+}
+
+.img-french-toast {
+    background-image: url("./assets/recipes/apple-french-toast.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 295px;
+    background-position: center 60%;
+}
+
+.img-vegan-cookies {
+    background-image: url("./assets/recipes/vegan-cookies.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 295px;
+    background-position: center 30%;
+}
+
